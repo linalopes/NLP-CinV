@@ -70,4 +70,4 @@ Feel free to submit issues and enhancement requests.
 
 ## License
 
-[Add your license information here]
+This project is licensed under the MIT License.
