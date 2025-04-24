@@ -1,0 +1,12 @@
+# output folders
+output/
+logs/
+cache/
+
+# system files
+.DS_Store
+
+# environment config
+.env
+*.parquet
+*.db
