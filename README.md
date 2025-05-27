@@ -6,17 +6,23 @@ This repository contains a collection of Natural Language Processing (NLP) tools
 
 ```
 .
-├── input/              # Input data directory
-├── output/            # Generated output files
-├── cache/             # Cached data
-├── logs/              # Log files
-├── markdown/          # Markdown files
-├── prompts/           # Prompt templates
-├── 2A-NLP-Classic.ipynb  # Main NLP analysis notebook
-├── 2B-graphRAG.ipynb     # Graph-based RAG implementation
-├── ZoteroToMD.ipynb      # Zotero to Markdown converter
-├── PDF to MD.ipynb       # PDF to Markdown converter
-└── settings.yaml         # Configuration settings
+├── data/              # Data directory
+│   ├── markdown/     # Markdown files
+│   ├── outputs/      # Generated outputs
+│   ├── pdfs/         # input PDF files/papers
+│   └── txt_clean/    # Cleaned text files
+├── notebooks/         # Jupyter notebooks
+│   ├── 1-conversion/  # Document conversion notebooks
+│   │   ├── 1A-PDF-to-MD.ipynb
+│   │   ├── 1B-Zotero-to-MD.ipynb
+│   │   └── 1C-MD-to-TXT.ipynb
+│   ├── 2-classic-NLP/ # Classic NLP analysis notebooks
+│   │   └── 2A-NLP-Classic.ipynb
+│   └── 3-RAG/        # RAG implementation notebooks
+│       ├── 3A-local-RAG.ipynb
+│       ├── 3B-local-RAG-gradio.ipynb
+│       └── 3B-extract-with-ollama.ipynb
+└── scripts/          # Utility scripts
 ```
 
 ## Features
